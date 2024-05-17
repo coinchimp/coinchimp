@@ -1,0 +1,98 @@
+site_name: CoinChimp
+site_url: https://coinchimp.xyz
+site_author: CoinChimp
+site_description: Explore the intersection of cryptocurrency and automation with insightful tutorials, project showcases, and comparative analysis, presented in an engaging yet professional tone.
+
+# Repository
+repo_name: coinchimp/coinchimp
+repo_url: https://github.com/coinchimp/coinchimp
+
+# Copyright
+copyright: Copyright © 2024 CoinChimp
+
+# Configuration
+theme:
+  name: material
+  custom_dir: material/overrides
+  features:
+    - content.action.edit
+    - content.action.view
+    - content.code.copy
+    - content.tooltips
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.indexes
+    - navigation.expand
+    - search.suggest
+    - toc.follow
+  palette:
+    scheme: default
+    primary: blue
+    accent: amber
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon-small.png
+  logo: assets/logo-small.png
+  icon: 
+    logo: logo
+
+# Plugins
+plugins:
+  - blog:
+      authors: true
+      authors_file: blog/.authors.yml
+  - search
+  - tags
+  - minify:
+      minify_html: true
+
+# Hooks
+hooks:
+  - material/overrides/hooks/shortcodes.py
+
+# Additional configuration
+extra:
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYT_WRITE
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/coinchimp
+#    - icon: fontawesome/brands/discord
+#      link: https://discord.com/coinchimp
+#    - icon: fontawesome/brands/twitter
+#      link: https://twitter.com/coinchimp  
+
+# Extensions
+markdown_extensions:
+  - attr_list
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+# Page tree
+nav:
+  - Home: index.md
+  - Automation Tools:
+    - TradingView Webhook: automation/tradingview-webhook.md
+    - Discord Apps: automation/discord-apps.md
+    - Smart Contract Programming: automation/smart-contract-programming.md
+  - Tutorials:
+    - tutorials/index.md
+    - Git:
+      - How to Reset Your Git Repository to a Single Commit: tutorials/git/How-to-Reset-Your-Git-Repository-to-a-Single-Commit.md
+#    - Getting Started with Crypto Automation: tutorials/getting-started.md
+#    - Advanced Techniques: tutorials/advanced-techniques.md
+  - Insights:
+    - insights/index.md
+#    - Tips and Suggestions: insights/tips.md
+#    - Industry Opinions: insights/opinions.md
+  - Blog:
+    - Latest Posts: blog/index.md
