@@ -33,7 +33,7 @@ jobs:
         node-version: '14'
 
     - name: Install Wrangler
-      run: npm install -g @cloudflare/wrangler
+      run: npm install -g wrangler
 
     - name: Deploy to Cloudflare Pages
       env:
