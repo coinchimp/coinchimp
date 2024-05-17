@@ -1,0 +1,42 @@
+name: Deploy MkDocs Site to Cloudflare Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install MkDocs and dependencies
+      run: |
+        pip install mkdocs-material mkdocs-blogging-plugin mkdocs-minify-plugin
+
+    - name: Build MkDocs site
+      run: mkdocs build
+
+    - name: Install Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+
+    - name: Install Wrangler
+      run: npm install -g @cloudflare/wrangler
+
+    - name: Deploy to Cloudflare Pages
+      env:
+        CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        CLOUDFLARE_PROJECT_NAME: ${{ secrets.CLOUDFLARE_PROJECT_NAME }}
+      run: |
+        wrangler pages publish ./site --project-name=$CLOUDFLARE_PROJECT_NAME --account-id=$CLOUDFLARE_ACCOUNT_ID
