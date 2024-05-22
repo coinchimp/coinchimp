@@ -15,7 +15,7 @@ authors:
 
 # Exploring the Exciting World of Radiant
 
-I have been a big fan of blockchain projects like Kaspa. These chains offer incredible potential, and I have seen a lot of hype surrounding KRC20, which is still in development. People are excited about the possibility of creating meme coins, but I hope it will also attract other projects with more utility.
+I have been a big fan of projects like Kaspa. These chains offer incredible potential, and I have seen a lot of hype surrounding KRC20, which is still in development. People are excited about the possibility of creating meme coins, but I hope it will also attract other projects with more utility.
 
 **However, did you know there are other highly scalable projects?** 
 
