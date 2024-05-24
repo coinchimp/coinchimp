@@ -86,9 +86,12 @@ nav:
     - Smart Contract Programming: automation/smart-contract-programming.md
   - Tutorials:
     - tutorials/index.md
-    - Git:
+    - git:
       - How to Reset Your Git Repository to a Single Commit: tutorials/git/How-to-Reset-Your-Git-Repository-to-a-Single-Commit.md
-      - Publish forked randiant.js project package at GitHub: tutorials/git/To-publish-a-fork-of-javascript-package-github.md
+    - npm:
+      - Creating an Alias in Your .npmrc File for Forked Packages: tutorials/npm/Creating-an-Alias-in-Your-npm--for-Forked-Packages.md  
+      - Publish forked randiant.js project package at GitHub: tutorials/npm/To-publish-a-fork-of-javascript-package-github.md
+
 #    - Getting Started with Crypto Automation: tutorials/getting-started.md
 #    - Advanced Techniques: tutorials/advanced-techniques.md
   - Insights:
