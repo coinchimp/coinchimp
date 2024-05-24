@@ -96,7 +96,7 @@ nav:
 #    - Advanced Techniques: tutorials/advanced-techniques.md
   - Insights:
     - insights/index.md
-#    - Tips and Suggestions: insights/tips.md
+    - What are the fundamentals differences between runes and ordinals in BTC?: insights/differences-between-runes-and-ordinals.md
 #    - Industry Opinions: insights/opinions.md
   - Blog:
     - Latest Posts: blog/index.md
