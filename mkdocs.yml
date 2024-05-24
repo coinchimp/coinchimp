@@ -88,6 +88,7 @@ nav:
     - tutorials/index.md
     - Git:
       - How to Reset Your Git Repository to a Single Commit: tutorials/git/How-to-Reset-Your-Git-Repository-to-a-Single-Commit.md
+      - Publish forked randiant.js project package at GitHub: tutorials/git/To-publish-a-fork-of-javascript-package-github.md
 #    - Getting Started with Crypto Automation: tutorials/getting-started.md
 #    - Advanced Techniques: tutorials/advanced-techniques.md
   - Insights:
