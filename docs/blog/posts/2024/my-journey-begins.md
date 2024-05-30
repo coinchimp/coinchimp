@@ -1,7 +1,7 @@
 ---
 date: 2024-05-16
 categories:
-  - developers
+  - technology
 tags:
   - crypto
   - discord

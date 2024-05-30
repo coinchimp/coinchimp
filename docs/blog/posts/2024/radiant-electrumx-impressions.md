@@ -1,7 +1,8 @@
 ---
 date: 2024-05-22
 categories:
-  - developers
+  - technology
+  - radiant
 tags:
   - crypto
   - radiant
@@ -22,7 +23,7 @@ I have been a big fan of projects like Kaspa. These chains offer incredible pote
 ## The Technical Excellence of Radiant Community
 Although it has a small community yet, it is very focused on technical excellence. Radiant is very close to completing the [Photonic Wallet](https://github.com/1razoo/photonic-wallet). This wallet will enable the creation of PoW mineable coins, promoting decentralization and fair launches.
 
-![PoW fungible tokens with Radiant Photonic Wallet](./radiant-fungible-pow-tokens-atomicals-photonic-wallet.png)
+![PoW fungible tokens with Radiant Photonic Wallet](/assets/blog/radiant-fungible-pow-tokens-atomicals-photonic-wallet.png)
 
 ## Why PoW Fungible Tokens Are Superior?
 
