@@ -14,7 +14,7 @@ authors:
   - coinchimp
 ---
 
-# Revolutionizing Meme Coins: The Rise of Decentralized Mineable Fungible Tokens
+# Revolutionizing Meme Coins: The Rise of Decentralized Fungible Tokens
 
 The world of cryptocurrency is ever-evolving, and the next big leap is already here: decentralized mineable fungible tokens. These tokens promise to bring a new level of fairness and decentralization to the crypto space, particularly in the realm of meme coins. But what makes decentralized mineable or minted tokens so special, and how can they transform the way we launch new token projects? Let's dive in.
 
