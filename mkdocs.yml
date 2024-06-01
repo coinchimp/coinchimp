@@ -89,9 +89,12 @@ nav:
     - git:
       - How to Reset Your Git Repository to a Single Commit: tutorials/git/How-to-Reset-Your-Git-Repository-to-a-Single-Commit.md
       - Secure Your GitHub with SSH - A Simple Guide: tutorials/git/Secure-Your-GitHub-with-SSH-A-Simple-Guide.md
+      - Creating a New Branch and Switching to It and back: tutorials/git/Creating-a-New-Branch-and-Switching-to-It.md
     - npm:
       - Creating an Alias in Your .npmrc File for Forked Packages: tutorials/npm/Creating-an-Alias-in-Your-npm--for-Forked-Packages.md  
       - Publish forked randiant.js project package at GitHub: tutorials/npm/To-publish-a-fork-of-javascript-package-github.md
+    - prometheus:
+      - Basic example of Prometheus Query Language: tutorials/prometheus/basic-example-of-prometheus-promql.md  
 
 #    - Getting Started with Crypto Automation: tutorials/getting-started.md
 #    - Advanced Techniques: tutorials/advanced-techniques.md
