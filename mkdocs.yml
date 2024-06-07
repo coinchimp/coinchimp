@@ -93,6 +93,8 @@ nav:
     - npm:
       - Creating an Alias in Your .npmrc File for Forked Packages: tutorials/npm/Creating-an-Alias-in-Your-npm--for-Forked-Packages.md  
       - Publish forked randiant.js project package at GitHub: tutorials/npm/To-publish-a-fork-of-javascript-package-github.md
+      - How to Create a Discord Bot with Slash Commands Using discord.js: tutorials/npm/How-to-Create-a-Discord-Bot-with-Slash-Commands-Using-discord-js.md
+
     - prometheus:
       - Basic example of Prometheus Query Language: tutorials/prometheus/basic-example-of-prometheus-promql.md  
 
