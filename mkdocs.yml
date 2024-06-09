@@ -104,6 +104,7 @@ nav:
     - insights/index.md
     - What are the fundamentals differences between runes and ordinals in BTC?: insights/differences-between-runes-and-ordinals.md
     - How Atomicals ARC-20 Defines GPU Mineable Tokens in the Fungible Token Payload: insights/How-Atomicals-ARC-20-Defines-GPU-Mineable-Tokens-in-the-Fungible-Token-Payload.md
+    - Unlocking High Performance Web Applications with WebAssembly: insights/Unlocking-High-Performance-Web-Applications-with-WebAssembly.md
 #    - Industry Opinions: insights/opinions.md
   - Blog:
     - Latest Posts: blog/index.md
