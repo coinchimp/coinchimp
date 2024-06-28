@@ -60,10 +60,10 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/coinchimp
-#    - icon: fontawesome/brands/discord
-#      link: https://discord.com/coinchimp
-#    - icon: fontawesome/brands/twitter
-#      link: https://twitter.com/coinchimp  
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UC4SPxLiMPnyeHDakXtje1zw
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/coinchimpx  
 
 # Extensions
 markdown_extensions:

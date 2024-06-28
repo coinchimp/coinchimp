@@ -1,7 +1,6 @@
 ---
 date: 2024-05-22
 categories:
-  - technology
   - radiant
 tags:
   - crypto

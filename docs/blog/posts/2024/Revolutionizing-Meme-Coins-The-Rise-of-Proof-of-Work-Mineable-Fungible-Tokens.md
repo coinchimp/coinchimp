@@ -1,15 +1,12 @@
 ---
 date: 2024-05-29
 categories:
-  - technology
   - radiant
-  - kaspa
 tags:
-  - crypto
+  - photonic
   - radiant
-  - kaspa
   - tokenomics
-  - fungible tokens
+  - mineable tokens
 authors:
   - coinchimp
 ---

@@ -1,14 +1,13 @@
 ---
 date: 2024-05-28
 categories:
-  - technology
   - radiant
+  - coding
 tags:
-  - crypto
   - radiant
   - google cloud run
   - containers
-  - photonics
+  - photonic
 authors:
   - coinchimp
 ---
