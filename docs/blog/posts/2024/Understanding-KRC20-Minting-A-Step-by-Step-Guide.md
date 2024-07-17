@@ -13,7 +13,7 @@ authors:
   - coinchimp
 ---
 
-# Understanding KRC20 Minting with a TypeScript App: A Step-by-Step Guide
+# Understanding KRC20 Minting with TypeScript Real Examples: A Step-by-Step Guide
 
 Minting a KRC20 token can seem daunting, especially for newcomers in the crypto world. In this post, we'll walk you through the minting process using TypeScript code pieces as an example. Those code pieces are using [rusty-kaspa WASM](https://kaspa.aspectron.org/nightly/downloads/) recommended by [aspect](https://www.linkedin.com/in/anton-yemelyanov/). We'll also dive into the composition of transactions and discuss some updates on KIP-9, addressing current challenges and solutions.
 
