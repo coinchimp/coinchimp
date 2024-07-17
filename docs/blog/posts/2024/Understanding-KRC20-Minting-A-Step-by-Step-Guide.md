@@ -131,7 +131,7 @@ Using a P2SH address allows us to lock the funds with a script that defines spec
 
 ## Update on KIP-9 and Ongoing Challenges
 
-KIP-9 introduces a mechanism to regulate the growth of the UTXO set, addressing state bloat in the blockchain. Our TypeScript app utilizes the `createTransactions()` function from Kaspa WASM SDK, which incorporates KIP-9 fee calculations and produces a summary of consumed fees. However, two critical features are still in progress:
+[KIP-9](https://github.com/kaspanet/kips/blob/master/kip-0009.md) introduces a mechanism to regulate the growth of the UTXO set, addressing state bloat in the blockchain. Our TypeScript app utilizes the `createTransactions()` function from Kaspa WASM SDK, which incorporates KIP-9 fee calculations and produces a summary of consumed fees. However, two critical features are still in progress:
 
 1. **Dynamic Network Fee Estimation**: This will allow for more accurate priority fee calculations based on current network conditions.
 2. **Replace-By-Fee (RBF)**: This feature will enable transaction replacement with higher fees, ensuring timely confirmation.
