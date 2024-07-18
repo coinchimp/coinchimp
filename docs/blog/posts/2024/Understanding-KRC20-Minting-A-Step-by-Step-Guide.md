@@ -21,7 +21,7 @@ Special thanks to [KaffinPX](https://x.com/KaffinPX) for sharing this code in th
 
 ## What is KRC20?
 
-KRC20 is a standard for tokens on the Kaspa blockchain, similar to the BRC20 standard for Bitcoin. It defines a set of rules for tokens, enabling seamless interaction within the Kaspa ecosystem.
+KRC20 is a standard for tokens on the Kaspa network, similar to the BRC20 standard for Bitcoin. It defines a set of rules for tokens, enabling seamless interaction within the Kaspa ecosystem.
 
 ## Minting KRC20 Tokens: The TypeScript Example
 
@@ -131,9 +131,9 @@ Using a P2SH address allows us to lock the funds with a script that defines spec
 
 ## Update on KIP-9 and Ongoing Challenges
 
-[KIP-9](https://github.com/kaspanet/kips/blob/master/kip-0009.md) introduces a mechanism to regulate the growth of the UTXO set, addressing state bloat in the blockchain. Our TypeScript app utilizes the `createTransactions()` function from Kaspa WASM SDK, which incorporates KIP-9 fee calculations and produces a summary of consumed fees. However, two critical features are still in progress:
+[KIP-9](https://github.com/kaspanet/kips/blob/master/kip-0009.md) introduces a mechanism to regulate the growth of the UTXO set, addressing state bloat in the chain. Our TypeScript app utilizes the `createTransactions()` function from Kaspa WASM SDK, which incorporates KIP-9 fee calculations and ensure your app is compatible with the extended mass formula proposed in KIP-9 to regulate the creation and lifecycle of UTXOs. However, two critical features are still in progress:
 
 1. **Dynamic Network Fee Estimation**: This will allow for more accurate priority fee calculations based on current network conditions.
-2. **Replace-By-Fee (RBF)**: This feature will enable transaction replacement with higher fees, ensuring timely confirmation.
+2. **Replace-By-Fee (RBF)**: This feature will enable transaction replacement in the mempool with higher fees, ensuring timely confirmation.
 
-These updates are expected to be available in the coming weeks, enhancing the efficiency and scalability of KRC20 token minting. Additionally, KIP-9 helps to make better block utilization by regulating the growth rate of the UTXO set and optimizing transaction fees, thus reducing state bloat and enhancing overall blockchain performance.
+These updates are expected to be available in the coming weeks, enhancing the efficiency and scalability of KRC20 token minting. Additionally, KIP-9 helps to make better block utilization by regulating the growth rate of the UTXO set and optimizing transaction fees, thus reducing state bloat and enhancing overall network performance.
