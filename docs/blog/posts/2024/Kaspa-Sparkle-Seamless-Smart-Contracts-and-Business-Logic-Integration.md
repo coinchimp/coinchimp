@@ -1,3 +1,17 @@
+---
+date: 2024-11-12
+categories:
+  - kaspa
+tags:
+  - crypto
+  - zk rollups
+  - zk proofs
+  - smart contracts
+  - kaspa
+authors:
+  - coinchimp
+---
+
 ## Introducing Sparkle: Kaspa's Layer 1.5 for Seamless Smart Contracts and Business Logic Integration
 
 In a prior discussion, an open video call on July 9th posted on Kaspa’s YouTube channel, Kaspa core developers, including Aspect, Shai Wyborski, and Yonatan Sompolinsky, considered two approaches for implementing smart contracts. One of the guests at this meeting was Ilia from StarkWare, an industry leader in ZK tech specializing in zero-knowledge rollups and ZK-VMs. Kaspa’s developers debated two paths forward: one option was to go fully native with Rust, aligning well with Kaspa’s speed and architecture, though it would take longer to build. The alternative was to integrate with established ZK ecosystems, like StarkWare's ZK-VM, to leverage pre-existing tools and smart contract compatibility.
