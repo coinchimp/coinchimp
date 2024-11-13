@@ -45,7 +45,7 @@ Unlike traditional smart contracts, which can be heavy on resources and often re
 
 - **ZK Rollups for Efficiency**: As I said before, ZK Rollups are Sparkle’s backbone for handling transactions efficiently. By allowing multiple transactions to be bundled into a single proof and verified on Kaspa’s Layer 1, ZK Rollups drastically reduce the computational load, enabling faster and more cost-effective transactions.
 
-![Kaspa Sparkle Project - Smart Contracts](assets/blog/radiant-fungible-pow-tokens-atomicals-photonic-wallet.png)
+![Kaspa Sparkle Project - Smart Contracts](/assets/blog/kaspa-sparkle-smart-contracts-zk-proofs-rollups.png)
 
 - **No Disruptive Design**: Sparkle functions as a middle ground, not quite Layer 2 but more advanced than typical Highly eficient Proof of Work Network operations. This sort of "Layer 1.5" approach offers a hybrid solution that maintains security without compromising scalability.
 - **No Hard Fork Required**: Sparkle operates independently of Kaspa’s core BlockDAG and doesn’t require a major update to the base network. However, the upcoming Crescendo hard fork will provide additional support for Sparkle contributing with some of the requirements not provided today, helping to streamline its functionalities.
