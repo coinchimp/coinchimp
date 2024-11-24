@@ -18,7 +18,7 @@ authors:
 ---
 
 **Hey everyone, welcome back to Coinchimp!**  
-If you haven’t seen it yet, Yonatan Sompolinsky recently shared an insightful post on X (formerly Twitter): [Link](https://x.com/hashdag/status/1856484298792018049). The post dives into "Atomic Composability and Other Considerations for L1/L2 Support." It’s an exciting look at how Kaspa is improving smart contract solutions.  
+If you haven’t seen it yet, Yonatan Sompolinsky recently shared an insightful post on X: [Link](https://x.com/hashdag/status/1856484298792018049). The post dives into "Atomic Composability and Other Considerations for L1/L2 Support." It’s an exciting look at how Kaspa is improving smart contract solutions.  
 
 The paper is a bit technical, so here’s my simplified breakdown of what it all means and why it matters. Let’s start!
 
